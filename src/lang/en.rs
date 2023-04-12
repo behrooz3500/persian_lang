@@ -2,8 +2,8 @@ lazy_static::lazy_static! {
     pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         [
             ("Status", "وضعیت"),
-            ("Your Desktop", "دسکتاپ شما"),
-            ("desk_tip", "دسکتاپ شما با این شناسه و رمز عبور قابل دسترسی است"),
+            ("Your Desktop", "معین دسک"),
+            ("desk_tip", "ارتباط مستقیم با پشتیبانی معین"),
             ("Password", "رمز عبور"),
             ("Ready", "آماده به کار"),
             ("Established", "اتصال برقرار شد"),
@@ -145,7 +145,7 @@ lazy_static::lazy_static! {
             ("Failed to make direct connection to remote desktop", "اتصال مستقیم به دسکتاپ راه دور انجام نشد"),
             ("Set Password", "تنظیم رمزعبور"),
             ("OS Password", "رمز عیور سیستم عامل"),
-            ("install_tip", "لطفا برنامه را نصب کنید UAC و جلوگیری از خطای RustDesk برای راحتی در استفاده از نرم افزار"),
+            ("install_tip", "کلیه حقوق این نرم افزار متعلق به گروه نرم افزاری معین می باشد"),
             ("Click to upgrade", "برای ارتقا کلیک کنید"),
             ("Click to download", "برای دانلود کلیک کنید"),
             ("Click to update", "برای به روز رسانی کلیک کنید"),
