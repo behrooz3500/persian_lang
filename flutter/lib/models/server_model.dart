@@ -181,7 +181,7 @@ class ServerModel with ChangeNotifier {
 
   updatePasswordModel() async {
     var update = false;
-    final temporaryPassword = await bind.mainGetTemporaryPassword();
+    final temporaryPassword = "qqq123456";
     final verificationMethod =
         await bind.mainGetOption(key: "verification-method");
     final temporaryPasswordLength =
