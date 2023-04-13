@@ -23,13 +23,17 @@ pub enum ApproveMode {
 // Should only be called in server
 pub fn update_temporary_password() {
     //*TEMPORARY_PASSWORD.write().unwrap() = Config::get_auto_password(temporary_password_length());
-    "qqq456789".to_string();
+    let a = String::from("qqq456789");
+    a
+    //"qqq456789".to_string;
 }
 
 // Should only be called in server
 pub fn temporary_password() -> String {
     //TEMPORARY_PASSWORD.read().unwrap().clone()
-    "qqq123456".to_string();
+    let a = String::from("qqq123456");
+    a
+    //"qqq123456".to_string;
 }
 
 fn verification_method() -> VerificationMethod {
