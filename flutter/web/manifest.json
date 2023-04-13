@@ -1,6 +1,6 @@
 {
-    "name": "rustdesk",
-    "short_name": "rustdesk",
+    "name": "moeindesk",
+    "short_name": "moeindesk",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
